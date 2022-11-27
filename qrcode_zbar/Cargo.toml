@@ -1,0 +1,14 @@
+[package]
+name = "qrcode_zbar"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+opencv = "0.74.0"
+anyhow = "1.0.66"
+zbar-rust = { git = "https://github.com/abhimanyuv1/zbar-rust.git" }
+image = "0.24.5"
+mat2image = "0.2.0"
+rayon = "1.6.0"
